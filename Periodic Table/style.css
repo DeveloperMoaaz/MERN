@@ -1,0 +1,73 @@
+/* General Table Styling */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white; /* Default text color for all elements */
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Element Categories */
+
+/* Hydrogen */
+.symbol.hydrogen {
+    background-color: #ff9999; /* Light red */
+}
+
+/* Alkali Metals */
+.symbol.alkali-metal {
+    background-color: #ff6666; /* Bright red */
+}
+
+/* Alkaline Earth Metals */
+.symbol.alkaline-earth-metal {
+    background-color: #ffcc99; /* Peach */
+}
+
+/* Transition Metals */
+.symbol.transition-metal {
+    background-color: #ffd700; /* Gold */
+}
+
+/* Post-Transition Metals */
+.symbol.post-transition-metal {
+    background-color: #cccccc; /* Light gray */
+}
+
+/* Metalloids */
+.symbol.metalloid {
+    background-color: #99cc99; /* Light green */
+}
+
+/* Nonmetals */
+.symbol.nonmetal {
+    background-color: #66ccff; /* Light blue */
+}
+
+/* Halogens */
+.symbol.halogen {
+    background-color: #ff99ff; /* Light purple */
+}
+
+/* Noble Gases */
+.symbol.noble-gas {
+    background-color: #66ffff; /* Cyan */
+}
+
+/* Lanthanides */
+.symbol.lanthanide {
+    background-color: #ffcc66; /* Light orange */
+}
+
+/* Actinides */
+.symbol.actinide {
+    background-color: #ff9966; /* Reddish orange */
+}
